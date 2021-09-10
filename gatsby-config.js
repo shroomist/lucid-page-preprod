@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/lucid-page-preprod",
   siteMetadata: {
     title: `rizome.io | Cardano Blockchain Solutions`,
     description: `Cardano blockchain stake pool. Delegate Cardano to reliable low fee pool. Architecture and Infrastructure for Distributed Ledger technologies.`,
@@ -36,7 +37,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/rizome-icon.png`, // This path is relative to the root of the site.
       },
     },
     {
