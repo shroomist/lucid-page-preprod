@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 import React from "react"
 
 import { Link } from 'gatsby'
-import Logo from '../../assets/lucid-logo-light.svg'
+import Logo from '../../assets/logo-black.svg'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 export const Header = () =>
@@ -24,7 +24,7 @@ export const Header = () =>
         variant: 'styles.navlink', p: 0,
       }}>
       <div sx={{ position: 'relative' }}>
-        <Logo sx={{ position: 'absolute', top: -10 }}/>
+        <Logo sx={{ position: 'absolute', top: -10, minWidth:80 }}/>
       </div>
     </Link>
     <div sx={{ mx: 'auto' }} />
@@ -33,21 +33,21 @@ export const Header = () =>
       sx={{
         variant: 'styles.navlink',
       }}>
-      About
+      Features
     </AnchorLink>
     <AnchorLink
       to="/#about"
       sx={{
         variant: 'styles.navlink',
       }}>
-      Vision
+      About
     </AnchorLink>
     <Link
       to="https://blog.rizome.io"
       sx={{
         variant: 'styles.navlink',
       }}>
-      Pool
+      Blog
     </Link>
     <AnchorLink
       to="/#contact"
