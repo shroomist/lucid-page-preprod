@@ -1,20 +1,14 @@
 const colors = {
-  text: '#000',
+  text: "#babab6",
+  background: "#2e2e2e",
   white: '#efefef',
-  background: '#efefef',
-  primary: '#f58c43',
-  secondary: '#30c',
+  primary: '#edc4a4',
+  secondary: '#8c4c6f',
   muted: '#f6f6f6',
-  modes: {
-    dark: {
-      bg: "#2e2e2e",
-      text: "#fff",
-    }
-  }
 }
 
 export default {
-  initialColorModeName: 'light',
+  initialColorModeName: 'dark',
   colors,
   space: [
     0,
@@ -45,18 +39,42 @@ export default {
   ],
   fontWeights: {
     body: 300,
-    heading: '300',
+    heading: 300,
     bold: 500
   },
   lineHeights: {
     body: 1.5,
     heading: 1.125
   },
+  text: {
+    h2: {
+      fontFamily: 'heading',
+      lineHeight: 1.2,
+      fontWeight: 'heading',
+      color: 'primary',
+      fontSize: 5,
+      mb: '1em'
+    },
+    h3: {
+      fontFamily: 'heading',
+      fontWeight: 'normal',
+      color: 'primary',
+      fontSize: 4,
+      my: '2em'
+    }
+  },
+  buttons: {
+    primary: {
+      bg: 'secondary',
+      fontWeight: 'body'
+    }
+  },
   styles: {
     root: {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+      fontSize: 3
     },
     h1: {
       color: 'text',
@@ -73,10 +91,10 @@ export default {
       fontSize: 5
     },
     h3: {
-      color: 'primary',
       fontFamily: 'heading',
       lineHeight: 'heading',
-      fontWeight: 'heading',
+      fontWeight: 'bold',
+      color: colors.primary,
       fontSize: 4
     },
     h4: {
@@ -137,7 +155,7 @@ export default {
       maxWidth: '100%'
     },
     navlink: {
-      color: colors.modes.dark.text,
+      color: colors.text,
       textDecoration: 'none',
       px: [2, 4],
       py: 3,
