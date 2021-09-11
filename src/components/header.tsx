@@ -11,6 +11,7 @@ export const Header = () =>
     position: 'fixed',
     width: '100%',
     variant: 'styles.header',
+    zIndex: 1,
   }}>
     <header
       sx={{
@@ -42,19 +43,20 @@ export const Header = () =>
       }}>
       About
     </AnchorLink>
-    <Link
-      to="https://blog.rizome.io"
-      sx={{
-        variant: 'styles.navlink',
-      }}>
-      Blog
-    </Link>
-    <AnchorLink
-      to="/#contact"
-      sx={{
-        variant: 'styles.navlink',
-      }}>
-      Contacts
-    </AnchorLink>
   </header>
 </div>
+
+/* <Link
+*   to="https://blog.rizome.io"
+*   sx={{
+*     variant: 'styles.navlink',
+*   }}>
+*   Blog
+* </Link>
+* <AnchorLink
+*   to="/#contact"
+*   sx={{
+*     variant: 'styles.navlink',
+*   }}>
+*   Contacts
+* </AnchorLink> */

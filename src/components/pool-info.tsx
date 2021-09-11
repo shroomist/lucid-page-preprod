@@ -40,7 +40,10 @@ export const PoolInfo = () => {
 
     <Grid columns={[7]} sx={{
       px: ['1em', '2em', '2em', '5em', '14em'],
-      bg: 'rgba(33,33,33,0.6)'
+      py: '2em',
+      bg: 'rgba(32,40,43,80%)',
+      borderTop: '1px solid #999',
+      borderBottom: '1px solid #999',
     }}>
       <Box>
         Ticker: <br />

@@ -22,18 +22,18 @@ export const Hero = () => {
           }} />
       </div>
 
-        <Box sx={{ minHeight: '90vh' }}>
+        <Box sx={{ minHeight: '83.5vh' }}>
           <Box sx={{
-            mx: ['2em', '2em', '10em', '18em', '20em'],
+            ml: ['2em', '2em', '6em', '10em', '20em'],
             pt: [ '40%', '20%', '16%' ],
           }}>
             <LucidGarden sx={{
-              width: ['15em', '20em', '24em', '30em']
+              width: ['15em', '18em', '20em', '22em']
             }} />
             <Box sx={{
                 ml: [null, '10em', '12em'],
                 mt: [null, '-2em'],
-                pb: '4em'
+                pb: '2em'
             }}>
               <Heading >
                 <Themed.em>Lucid</Themed.em> is a highly performant and resilient <br />
@@ -43,7 +43,10 @@ export const Hero = () => {
             <Button>Start Staking</Button>
           </Box>
         </Box>
-      <PoolInfo />
+        <Box sx={{
+        }}>
+          <PoolInfo />
+        </Box>
 
 
     </div>

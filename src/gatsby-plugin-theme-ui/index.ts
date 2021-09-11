@@ -1,6 +1,7 @@
 const colors = {
   text: "#babab6",
-  background: "#2e2e2e",
+  background: '#1c2426',
+  // background: "#2e2e2e",
   white: '#efefef',
   primary: '#edc4a4',
   secondary: '#8c4c6f',
@@ -168,7 +169,7 @@ export default {
       color: 'primary'
     },
     header: {
-      bg: 'rgba(50,50,50,90%)',
+      bg: 'rgba(32,40,43,80%)',
       borderBottom: `1px solid ${colors.white}`
     }
   }
