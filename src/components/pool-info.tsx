@@ -38,8 +38,8 @@ export const PoolInfo = () => {
 
   return (
 
-    <Grid columns={[7]} sx={{
-      px: ['1em', '2em', '2em', '5em', '14em'],
+    <Grid width="5em" columns={[7]} sx={{
+      px: ['1em', '1em', '1em', '5em', '14em'],
       py: '2em',
       bg: 'rgba(32,40,43,80%)',
       borderTop: '1px solid #999',

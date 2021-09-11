@@ -25,10 +25,10 @@ export const Hero = () => {
         <Box sx={{ minHeight: '83.5vh' }}>
           <Box sx={{
             ml: ['2em', '2em', '6em', '10em', '20em'],
-            pt: [ '40%', '20%', '16%' ],
+            pt: [ '42%', '20%', '16%' ],
           }}>
             <LucidGarden sx={{
-              width: ['15em', '18em', '20em', '22em']
+              width: ['12em', '18em', '20em', '22em']
             }} />
             <Box sx={{
                 ml: [null, '8em', '9em'],
@@ -42,8 +42,7 @@ export const Hero = () => {
             </Box>
           </Box>
         </Box>
-        <Box sx={{
-        }}>
+        <Box>
           <PoolInfo />
         </Box>
 

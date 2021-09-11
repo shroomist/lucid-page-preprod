@@ -13,7 +13,7 @@ export const Aboutus = () => (
     </Box>
     <Card sx={{
       flex: '0 1 60%',
-      minWidth: '20em',
+      minWidth: '15em',
       pl: [ '10%', null, '5%' ]
 
     }}>

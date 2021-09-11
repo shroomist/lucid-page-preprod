@@ -6,7 +6,7 @@ import Server from '../../assets/server.svg'
 import Shield from '../../assets/shield.svg'
 
 export const Features = () => (
-    <Flex sx={{ flexWrap: 'wrap', mt: '2em', fontSize: 2 }}>
+    <Flex sx={{ flexWrap: 'wrap', mt: '2em', fontSize: 2, maxWidth: 1400 }}>
         <Card sx={{
             flex: '1 1',
             px: '4em',

@@ -7,7 +7,7 @@ export const AboutMission = () => (
     <Flex sx={{ alignItems: 'center', flexWrap: 'wrap' }}>
         <Card sx={{
           flex: '0 1 50%',
-          minWidth: '20em',
+          minWidth: '15em',
           mr: [ '5%', null, '5%' ]
         }}>
             OUR MISSION

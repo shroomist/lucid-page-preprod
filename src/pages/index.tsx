@@ -22,7 +22,7 @@ const IndexPage = () => {
           minHeight: '100vh',
           ">div": {
             my: 'auto',
-            mx: ['1em', '1em', '4em']
+            mx: 'auto',
           }
         }} id="features">
           <Features />
