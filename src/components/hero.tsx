@@ -31,8 +31,8 @@ export const Hero = () => {
               width: ['15em', '18em', '20em', '22em']
             }} />
             <Box sx={{
-                ml: [null, '10em', '12em'],
-                mt: [null, '-2em'],
+                ml: [null, '8em', '9em'],
+                mt: [null, '-1em'],
                 pb: '2em'
             }}>
               <Heading >
@@ -40,7 +40,6 @@ export const Hero = () => {
                 Stake Pool for <Themed.em>Cardano blockchain</Themed.em>.
               </Heading>
             </Box>
-            <Button>Start Staking</Button>
           </Box>
         </Box>
         <Box sx={{
@@ -54,3 +53,5 @@ export const Hero = () => {
 
 }
 
+/*
+*             <Button>Start Staking</Button> */

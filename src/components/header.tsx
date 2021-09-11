@@ -43,6 +43,13 @@ export const Header = () =>
       }}>
       About
     </AnchorLink>
+    <AnchorLink
+      to="/#mission"
+      sx={{
+        variant: 'styles.navlink',
+      }}>
+      Mission
+    </AnchorLink>
   </header>
 </div>
 

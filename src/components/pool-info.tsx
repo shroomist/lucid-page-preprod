@@ -77,6 +77,7 @@ export const PoolInfo = () => {
             overflow: 'hidden',
             textOverflow: 'ellipsis',
             cursor: 'pointer',
+            pr: '2em',
           }}>
             Pool ID: <br />
             {info.pool_id}
@@ -95,6 +96,7 @@ export const PoolInfo = () => {
             overflow: 'hidden',
             textOverflow: 'ellipsis',
             cursor: 'pointer',
+            pr: '2em',
           }}>
             Pool Bech <br />
             {info.pool_id_bech32}

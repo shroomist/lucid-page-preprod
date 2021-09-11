@@ -30,6 +30,7 @@ const IndexPage = () => {
         </Flex>
 
         <Flex sx={{
+          bg: '#1c2426',
           minHeight: '100vh',
           ">div": {
             my: 'auto',
@@ -42,10 +43,9 @@ const IndexPage = () => {
         <Flex sx={{
           minHeight: '100vh',
           ">div": {
-            my: 'auto',
             ml: ['1em', '2em', '10em', '12em', '20em']
           }
-        }} id="about">
+        }} id="mission">
           <AboutMission />
         </Flex>
       </Container>

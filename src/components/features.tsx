@@ -16,7 +16,7 @@ export const Features = () => (
             borderRight: '1px solid',
             borderColor: 'primary'
         }}>
-            <Tipi sx={{ height: 100, mb: '2em' }} />
+            <Tipi sx={{ height: 100, mb: '1em' }} />
             <H>Independent Operation</H>
             we value decentralization and encourage you to stake with smaller pools
         </Card>
@@ -29,7 +29,7 @@ export const Features = () => (
             borderRight: '1px solid',
             borderColor: 'primary',
         }}>
-            <Server  sx={{ height: 100, mb: '2em' }}/>
+            <Server  sx={{ height: 100, mb: '1em' }}/>
             <H>Dedicated Servers</H>
             Ryzen 7 4800H - main servers, raspberry Pi - backup servers, 1Gb/s connection
         </Card>
@@ -42,7 +42,7 @@ export const Features = () => (
         }}>
 
           <Box>
-            <Shield sx={{ height: 100, mb: '2em' }} />
+            <Shield sx={{ height: 100, mb: '1em' }} />
             <H>Advanced Security</H>
             no root access, cryptographic key authorization, ufw, fail2ban, vpc, dnssec, no private keys on servers
           </Box>

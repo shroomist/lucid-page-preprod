@@ -16,11 +16,12 @@ export const AboutMission = () => (
         </Card>
         <Box sx={{
           flex: '1 1 30%',
-            height: 400,
+          mt: '10%',
+            height: '80%',
             display: 'relative',
             overflow: 'hidden'
         }} >
-            <AboutSvg sx={{ transform: 'translate(130px, 130px) scale(1.5, 1.5)' }} />
+            <AboutSvg sx={{ transform: 'translate(150px, 130px) scale(1.5, 1.5)' }} />
         </Box>
 
     </Flex>

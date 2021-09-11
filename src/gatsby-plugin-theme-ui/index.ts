@@ -1,11 +1,12 @@
 const colors = {
   text: "#babab6",
-  background: '#1c2426',
-  // background: "#2e2e2e",
+  background: '#20282b',
+  // background: '#1c2426',
+  background2: "#20282b",
   white: '#efefef',
   primary: '#edc4a4',
   secondary: '#8c4c6f',
-  muted: '#f6f6f6',
+  muted: '#20282b',
 }
 
 export default {
@@ -61,7 +62,7 @@ export default {
       fontWeight: 'normal',
       color: 'primary',
       fontSize: 4,
-      my: '2em'
+      my: '1em'
     }
   },
   buttons: {
@@ -126,7 +127,8 @@ export default {
       lineHeight: 'body'
     },
     a: {
-      color: 'primary'
+      color: 'primary',
+      textDecoration: 'none'
     },
     pre: {
       fontFamily: 'monospace',
@@ -170,7 +172,7 @@ export default {
     },
     header: {
       bg: 'rgba(32,40,43,80%)',
-      borderBottom: `1px solid ${colors.white}`
+      borderBottom: `1px solid ${colors.text}`
     }
   }
 }

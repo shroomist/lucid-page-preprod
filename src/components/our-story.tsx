@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { jsx, Card, Heading, Themed, Flex, Box } from 'theme-ui'
+import { jsx, Card, Heading, Themed, Flex, Box, Link } from 'theme-ui'
 import AboutSvg from '../../assets/our-story.svg'
 
 export const Aboutus = () => (
@@ -19,7 +19,7 @@ export const Aboutus = () => (
     }}>
         OUR STORY
       <Heading variant="text.h2"> <b>Hello!</b>  <br />This is Rizome -The <b>Lucid Pool</b> Team</Heading>
-        Rizome.io aligns with the technological stack of the Cardano Foundation
+      We at <Link href="https://rizome.io">rizome.io</Link> align with the technological stack of the Cardano Foundation
         that utilizes the practices and tools from the Cardano core codebase.
         We embrace and integrate rigorous testing, peer review and formal method
         in our development cycle to provide exceptional <Themed.em>resilience and security.</Themed.em>
