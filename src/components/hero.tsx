@@ -3,10 +3,10 @@ import { Button, jsx, Box, Heading, Grid, Themed } from 'theme-ui'
 
 import HeroSvg from '../../assets/lines.svg'
 import LucidGarden from '../../assets/lucid-garden.svg'
+import { PoolInfo } from './pool-info'
 
-export const Hero = ({st}) => {
+export const Hero = () => {
 
-  console.log(st);
   return (
     <div>
       <div sx={{
@@ -43,7 +43,7 @@ export const Hero = ({st}) => {
             <Button>Start Staking</Button>
           </Box>
         </Box>
-      <PoolInf />
+      <PoolInfo />
 
 
     </div>
@@ -51,33 +51,3 @@ export const Hero = ({st}) => {
 
 }
 
-const PoolInf = () => {
-  return (
-        <Grid columns={[7]} sx={{
-          mx: ['1em', '2em', '2em', '5em', '14em'],
-        }}>
-          <Box>
-            Ticker
-          </Box>
-          <Box>
-            Fee
-          </Box>
-          <Box>
-            Stake
-          </Box>
-          <Box>
-            Fixed
-          </Box>
-          <Box>
-            Pledge
-          </Box>
-          <Box>
-            Pool ID
-          </Box>
-          <Box>
-            Pool Bech
-          </Box>
-
-        </Grid>
-
-) }
