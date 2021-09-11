@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: "/lucid-page-preprod",
   siteMetadata: {
-    title: `rizome.io | Cardano Blockchain Solutions`,
-    description: `Cardano blockchain stake pool. Delegate Cardano to reliable low fee pool. Architecture and Infrastructure for Distributed Ledger technologies.`,
-    keywords: 'blockchain, cardano, stake, stakepool, lucid, delegate, secure, mining, staking, bitcoin',
+    title: `Cardano Lucid Pool | rizome.io Blockchain Solutions`,
+    description: `Lucid Cardano blockchain stake pool. Delegate Cardano to reliable low fee pool. Lucid Garden - place of confidence.`,
+    keywords: 'lucid, blockchain, cardano, stake, stakepool, lucid, delegate, secure, mining, staking, bitcoin',
     author: `Andrej Novikov`,
     siteUrl: `https://www.rizome.io`,
     imageSource: '/rizome_logo.png',
@@ -44,7 +44,7 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /svg/
+          include: /\.svg$/
         }
       }
     },
