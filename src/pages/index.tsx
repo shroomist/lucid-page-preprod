@@ -8,6 +8,7 @@ import { Hero } from '../components/hero'
 import { Features } from '../components/features'
 import { Aboutus } from '../components/our-story'
 import { AboutMission } from '../components/our-mission'
+import { Footer } from '../components/footer'
 
 const IndexPage = () => {
 
@@ -47,6 +48,15 @@ const IndexPage = () => {
           }
         }} id="mission">
           <AboutMission />
+        </Flex>
+
+        <Flex sx={{
+          minHeight: '100vh',
+          bg: '#1c2426',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }} id="contact">
+          <Footer />
         </Flex>
       </Container>
     </>

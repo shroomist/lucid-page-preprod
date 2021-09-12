@@ -7,6 +7,15 @@ module.exports = {
     author: `Andrej Novikov`,
     siteUrl: `https://www.rizome.io`,
     imageSource: '/rizome_logo.png',
+    social: [
+      {  name: "telegram", url: 'https://t.me/lucid_ada_pool'  },
+      {  name: "twitter", url: 'https://twitter.com/lucid_ada_pool'  },
+      {  name: "github", url: 'https://github.com/rizome-io'  },
+      {  name: "youtube", url: 'https://youtube.com'  },
+      {  name: "website", url: 'https://rizome.io'  },
+      {  name: "email", url: 'mailto:id@rizome.io'  },
+      { name: 'discord', url: 'https://discord.gg/v4tcAmuM' },
+    ],
   },
   plugins: [
     'gatsby-plugin-theme-ui',
