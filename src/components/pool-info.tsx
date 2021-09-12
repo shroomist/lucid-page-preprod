@@ -55,15 +55,15 @@ export const PoolInfo = () => {
       </Box>
       <Box>
         Stake: <br />
-        {Math.floor(info.active_stake / 1000000000)}k
+        {Math.floor(info.active_stake / 1000000000)}k₳
       </Box>
       <Box>
         Fixed: <br />
-        {info.fixed / 1000000}Ada
+        {info.fixed / 1000000}₳
       </Box>
       <Box>
         Pledge: <br />
-        {Math.floor(info.pledged / 1000000000)}k
+        {Math.floor(info.pledged / 1000000000)}k₳
       </Box>
       <Tooltip
         placement="top"
@@ -90,7 +90,7 @@ export const PoolInfo = () => {
       >
         <CopyToClipboard
           text={info.pool_id_bech32}
-          onCopy={() => { setIsCopiedIdBech32(true); setIsCopiedId(false) } }
+          onCopy={() => { setIsCopiedIdBech32(true); setIsCopiedId(false) }}
         >
           <Box sx={{
             overflow: 'hidden',
