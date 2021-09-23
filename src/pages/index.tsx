@@ -8,6 +8,7 @@ import { Hero } from '../components/hero'
 import { Features } from '../components/features'
 import { Aboutus } from '../components/our-story'
 import { AboutMission } from '../components/our-mission'
+import { StartStaking } from '../components/start-staking'
 import { Footer } from '../components/footer'
 
 const IndexPage = () => {
@@ -51,8 +52,18 @@ const IndexPage = () => {
         </Flex>
 
         <Flex sx={{
-          minHeight: '100vh',
           bg: '#1c2426',
+          minHeight: '100vh',
+          ">div": {
+            my: 'auto',
+            mr: ['1em', '2em', '10em', '12em', '20em']
+          }
+        }} id="start-staking">
+          <StartStaking />
+        </Flex>
+
+        <Flex sx={{
+          minHeight: '100vh',
           justifyContent: 'center',
           alignItems: 'center'
         }} id="contact">

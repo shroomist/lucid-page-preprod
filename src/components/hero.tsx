@@ -1,4 +1,5 @@
 /** @jsx jsx */
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import { Button, jsx, Box, Heading, Grid, Themed } from 'theme-ui'
 
 import HeroSvg from '../../assets/lines.svg'
@@ -40,6 +41,9 @@ export const Hero = () => {
                 Stake Pool for <Themed.em>Cardano blockchain</Themed.em>.
               </Heading>
             </Box>
+            <AnchorLink to="#start-staking">
+              <Button sx={{ borderRadius: '2em', px: '1em', cursor: 'pointer' }}>Start Staking</Button>
+            </AnchorLink>
           </Box>
         </Box>
         <Box>
