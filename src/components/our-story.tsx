@@ -28,13 +28,6 @@ export const Aboutus = () => (
         years actively involved in the blockchain space, we have proudly earned
         the expertise necessary for building and maintaining infrastructures
         for distributed and large-scale systems.
-        <br /><br />
-        Rizome.io represents the fruition of hard work
-        and scrupulous study that lead us to our core values. We especially
-        highlight the importance of <Themed.em>reproducible builds</Themed.em> and
-        thorough <Themed.em>testability</Themed.em>.
-        After a long journey of dedication, we are excited to offer
-        an exceptional user experience that breathes life into paradigm-shifting ideas.
     </Card>
 
   </Flex>

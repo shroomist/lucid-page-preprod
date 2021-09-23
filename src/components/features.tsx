@@ -11,45 +11,50 @@ export const Features = () => (
             flex: '1 1',
             px: '4em',
             my: '2em',
-            minWidth: '15em',
+            minWidth: '24em',
             textAlign: 'center',
             borderRight: '1px solid',
             borderColor: 'primary'
         }}>
             <Tipi sx={{ height: 100, mb: '1em' }} />
             <H>Independent Operation</H>
-            we value decentralization and encourage you to stake with smaller pools
+            Cardano Community contributors.<br />
+            Supporting the testnets.<br />
+            Plutus Pioneers.<br />
         </Card>
         <Card sx={{
             flex: '1 1',
             px: '4em',
             my: '2em',
-            minWidth: '15em',
+            minWidth: '24em',
             textAlign: 'center',
             borderRight: '1px solid',
             borderColor: 'primary',
         }}>
-            <Server  sx={{ height: 100, mb: '1em' }}/>
+            <Server sx={{ height: 100, mb: '1em' }} />
             <H>Dedicated Servers</H>
-            Ryzen 7 4800H - main servers, raspberry Pi - backup servers, 1Gb/s connection
+            Dedicaded hardware servers.<br />
+            Additional backup servers.<br />
+            1Gb/s connection.<br />
         </Card>
         <Card sx={{
             flex: '1 1',
             px: '4em',
             my: '2em',
-            minWidth: '15em',
+            minWidth: '24em',
             textAlign: 'center'
         }}>
 
-          <Box>
-            <Shield sx={{ height: 100, mb: '1em' }} />
-            <H>Advanced Security</H>
-            no root access, cryptographic key authorization, ufw, fail2ban, vpc, dnssec, no private keys on servers
-          </Box>
+                <Shield sx={{ height: 100, mb: '1em' }} />
+                <H>Advanced Security</H>
+                no root access on servers.<br />
+                cryptographic key authorization.<br />
+                ufw, fail2ban, vpc, dnssec.<br />
+                no private keys on servers.<br />
         </Card>
     </Flex>
 )
 
-const H = ({children}) => (
-  <Heading as='h3' variant="text.h3">{children}</Heading>
+const H = ({ children }) => (
+    <Heading as='h3' variant="text.h3">{children}</Heading>
 )

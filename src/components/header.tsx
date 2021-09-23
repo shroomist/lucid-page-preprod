@@ -50,17 +50,17 @@ export const Header = () =>
       }}>
       Mission
     </AnchorLink>
+    <a
+      href="https://blog.rizome.io"
+      sx={{
+        variant: 'styles.navlink',
+      }}>
+      Blog
+    </a>
   </header>
 </div>
 
-/* <Link
-*   to="https://blog.rizome.io"
-*   sx={{
-*     variant: 'styles.navlink',
-*   }}>
-*   Blog
-* </Link>
-* <AnchorLink
+/* <AnchorLink
 *   to="/#contact"
 *   sx={{
 *     variant: 'styles.navlink',

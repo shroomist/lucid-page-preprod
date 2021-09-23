@@ -11,7 +11,7 @@ module.exports = {
       {  name: "telegram", url: 'https://t.me/lucid_ada_pool'  },
       {  name: "twitter", url: 'https://twitter.com/lucid_ada_pool'  },
       {  name: "github", url: 'https://github.com/rizome-io'  },
-      {  name: "youtube", url: 'https://youtube.com'  },
+      {  name: "youtube", url: 'https://www.youtube.com/channel/UCQCAGGH8845ccdKqvqo0tQQ'  },
       {  name: "website", url: 'https://rizome.io'  },
       {  name: "email", url: 'mailto:id@rizome.io'  },
       { name: 'discord', url: 'https://discord.gg/v4tcAmuM' },

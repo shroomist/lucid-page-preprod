@@ -7,6 +7,7 @@ const colors = {
   primary: '#edc4a4',
   secondary: '#8c4c6f',
   muted: '#20282b',
+  highlight: '#edc4a4',
 }
 
 export default {
@@ -76,7 +77,7 @@ export default {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
-      fontSize: 3
+      fontSize: 3,
     },
     h1: {
       color: 'text',

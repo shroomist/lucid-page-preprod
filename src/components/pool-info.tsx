@@ -98,7 +98,7 @@ export const PoolInfo = () => {
             cursor: 'pointer',
             pr: '2em',
           }}>
-            Pool Bech <br />
+            Pool ID Bech: <br />
             {info.pool_id_bech32}
           </Box>
         </CopyToClipboard>
