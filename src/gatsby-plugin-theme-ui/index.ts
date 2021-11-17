@@ -62,7 +62,7 @@ export default {
       fontFamily: 'heading',
       fontWeight: 'normal',
       color: 'primary',
-      fontSize: 4,
+      fontSize: [4, null, null, null, 5],
       my: '1em'
     }
   },
@@ -77,7 +77,7 @@ export default {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
-      fontSize: 3,
+      fontSize: [2, null, 3, null, 4],
     },
     h1: {
       color: 'text',

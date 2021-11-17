@@ -5,47 +5,46 @@ import Tipi from '../../assets/tipi.svg'
 import Server from '../../assets/server.svg'
 import Shield from '../../assets/shield.svg'
 
+const imgStyle = {
+  height: '10em', mb: '1em'
+}
+
+const cardStyle = {
+  flex: '1 1',
+  px: '4em',
+  my: '2em',
+  minWidth: '24em',
+  textAlign: 'center' as const,
+}
+
+
 export const Features = () => (
-    <Flex sx={{ flexWrap: 'wrap', mt: '2em', fontSize: 2, maxWidth: 1400 }}>
+    <Flex sx={{ flexWrap: 'wrap', mt: '2em' }}>
         <Card sx={{
-            flex: '1 1',
-            px: '4em',
-            my: '2em',
-            minWidth: '24em',
-            textAlign: 'center',
+            ...cardStyle,
             borderRight: '1px solid',
             borderColor: 'primary'
         }}>
-            <Tipi sx={{ height: 100, mb: '1em' }} />
+            <Tipi sx={imgStyle} />
             <H>Independent Operation</H>
             Cardano Community contributors.<br />
             Supporting the testnets.<br />
             Plutus Pioneers.<br />
         </Card>
         <Card sx={{
-            flex: '1 1',
-            px: '4em',
-            my: '2em',
-            minWidth: '24em',
-            textAlign: 'center',
+          ...cardStyle,
             borderRight: '1px solid',
             borderColor: 'primary',
         }}>
-            <Server sx={{ height: 100, mb: '1em' }} />
+            <Server sx={imgStyle} />
             <H>Dedicated Servers</H>
             Dedicaded hardware servers.<br />
             Additional backup servers.<br />
             1Gb/s connection.<br />
         </Card>
-        <Card sx={{
-            flex: '1 1',
-            px: '4em',
-            my: '2em',
-            minWidth: '24em',
-            textAlign: 'center'
-        }}>
+        <Card sx={cardStyle}>
 
-                <Shield sx={{ height: 100, mb: '1em' }} />
+                <Shield sx={imgStyle} />
                 <H>Advanced Security</H>
                 no root access on servers.<br />
                 cryptographic key authorization.<br />
