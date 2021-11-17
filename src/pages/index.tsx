@@ -43,6 +43,7 @@ const IndexPage = () => {
         </Flex>
 
         <Flex sx={{
+          overflow: 'hidden',
           minHeight: '100vh',
           ">div": {
             ml: ['1em', '2em', '10em', '12em', '20em']
